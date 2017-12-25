@@ -7,7 +7,7 @@
   "types": "./js/ladda.d.ts",
   "scripts": {
     "test": "grunt jshint",
-    "prepare": "grunt && rollup -c",
+    "prepublishOnly": "grunt && rollup -c",
     "start": "grunt serve"
   },
   "author": {
